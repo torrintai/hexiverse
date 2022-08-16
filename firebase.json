@@ -19,18 +19,11 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "site": "hexiverse",
-    "public": "build",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   },
   "storage": {
