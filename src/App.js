@@ -6,6 +6,7 @@ import LoadingSpinner from "./components/UI/LoadingSpinner";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import Trailmap from "./pages/Trailmap";
+import Projects from "./pages/Projects";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -67,12 +68,16 @@ function App() {
           <Route path="/trailmap">
             <Trailmap />
           </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route path="*">
             <NotFound />
           </Route>
         </Switch>
       </Suspense>
     </Layout>
+    
   );
 }
 
