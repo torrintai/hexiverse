@@ -39,8 +39,8 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 
-const NewQuote = React.lazy(() => import("./pages/NewQuote.js"));
-const QuoteDetail = React.lazy(() => import("./pages/QuoteDetail.js"));
+ const NewQuote = React.lazy(() => import("./pages/NewQuote.js"));
+ const QuoteDetail = React.lazy(() => import("./pages/QuoteDetail.js"));
 
 function App() {
   return (
@@ -54,9 +54,9 @@ function App() {
       >
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/home" />
+            <Redirect to="/dashboard" />
           </Route>
-          <Route path="/home" exact>
+          <Route path="/dashboard" exact>
             <Dashboard />
           </Route>
           <Route path="/quotes/:quoteId">
