@@ -54,9 +54,9 @@ function App() {
       >
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/quotes" />
+            <Redirect to="/home" />
           </Route>
-          <Route path="/quotes" exact>
+          <Route path="/home" exact>
             <Dashboard />
           </Route>
           <Route path="/quotes/:quoteId">
