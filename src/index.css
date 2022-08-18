@@ -103,6 +103,57 @@ body {
   border-radius: 8px;
 }
 
-.projects__card .button {
+.projects__card .btn {
+  margin: 10px 5px 0;
+}
+
+.large h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.large p {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 50ch;
+}
+
+.large__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.large__card {
+  max-width: 1000px;
+
+  padding: 20px;
+
+  border: 1px solid #4800bb;
+  border-radius: 8px;
+}
+
+.large__card h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.large__card p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.large__card img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px;
+
+  border-radius: 8px;
+}
+
+.large__card .btn {
   margin: 10px 5px 0;
 }

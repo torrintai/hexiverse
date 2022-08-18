@@ -19,8 +19,8 @@ const Projects = () => {
                         perferendis ratione rerum dolorem.
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="button" to="/tokenomics">
-                                    Begin Game
+                                <NavLink className="btn" to="/concept">
+                                    GO
                                 </NavLink>
                         </ul>
                 </div>
@@ -32,9 +32,11 @@ const Projects = () => {
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
                     </p>
-
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
+                    <ul className="nav-item">
+                                <NavLink className="btn" to="/tokenomics">
+                                    GO
+                                </NavLink>
+                        </ul>
                 </div>
 
                 <div className="projects__card">
@@ -45,8 +47,11 @@ const Projects = () => {
                         perferendis ratione rerum dolorem.
                     </p>
 
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
+                    <ul className="nav-item">
+                                <NavLink className="btn" to="/socials">
+                                    GO
+                                </NavLink>
+                        </ul>
                 </div>
             </div>
         </section>

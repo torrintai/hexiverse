@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7f9e9df.css",
-    "main.js": "/static/js/main.e33eeb56.js",
+    "main.css": "/static/css/main.692ff92b.css",
+    "main.js": "/static/js/main.b3e5b7c3.js",
     "static/css/884.c1165da1.chunk.css": "/static/css/884.c1165da1.chunk.css",
     "static/js/884.2239c31d.chunk.js": "/static/js/884.2239c31d.chunk.js",
     "static/css/857.d695c0f1.chunk.css": "/static/css/857.d695c0f1.chunk.css",
@@ -12,15 +12,15 @@
     "static/media/gamecon.png": "/static/media/gamecon.8be3fe03e270e05ad832.png",
     "static/media/gametheory.png": "/static/media/gametheory.c22c3e92f22fb84e4d6e.png",
     "index.html": "/index.html",
-    "main.a7f9e9df.css.map": "/static/css/main.a7f9e9df.css.map",
-    "main.e33eeb56.js.map": "/static/js/main.e33eeb56.js.map",
+    "main.692ff92b.css.map": "/static/css/main.692ff92b.css.map",
+    "main.b3e5b7c3.js.map": "/static/js/main.b3e5b7c3.js.map",
     "884.c1165da1.chunk.css.map": "/static/css/884.c1165da1.chunk.css.map",
     "884.2239c31d.chunk.js.map": "/static/js/884.2239c31d.chunk.js.map",
     "857.d695c0f1.chunk.css.map": "/static/css/857.d695c0f1.chunk.css.map",
     "857.15dd462a.chunk.js.map": "/static/js/857.15dd462a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f9e9df.css",
-    "static/js/main.e33eeb56.js"
+    "static/css/main.692ff92b.css",
+    "static/js/main.b3e5b7c3.js"
   ]
 }

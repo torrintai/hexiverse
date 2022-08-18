@@ -10,6 +10,8 @@ import Projects from "./pages/Projects";
 import Concept from "./pages/Concept";
 import Tokenomics from "./pages/Tokenomics";
 import Socials from "./pages/Socials";
+import Market from "./pages/Market";
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -82,6 +84,9 @@ function App() {
           </Route>
           <Route path="/socials">
             <Socials />
+          </Route>
+          <Route path="/market">
+            <Market />
           </Route>
           <Route path="*">
             <NotFound />

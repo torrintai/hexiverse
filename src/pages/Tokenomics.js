@@ -1,37 +1,40 @@
 import React from "react";
 import theory from '../assets/gametheory.png';
+import { NavLink } from "react-router-dom";
 
 
-function Tokenomics() {
-  return (
-    <div className="tokenomics">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src={theory}
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Hexiverse Tokenomics</h1>
-            <p>
-              <li><h3>Overview:</h3></li>
-              Start for free and collect NFTs for the *cost of minting.
-              <li><h3>Mission:</h3></li>
-              Trade NFTs on an in-game open marketplace. 
-              <li><h3>NFts</h3>
-              <li><b>Game Items</b></li> Based 
-              <li><b>Unique</b></li> Perks and Rewards
-              Use capital from V1 to fund community inspired game expansion. Major social interactive spaces enabled.
-              <li><b>Liquidity Providing</b></li> Last 
-              </li>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+const Tokenomics = () => {
+    return (
+        <section className="large">
+            <h2>HEXiVerse Tokenomics</h2>
+
+            <div className="large__cards">
+
+                <div className="large__card">
+                    <h3>Start FREE - Mint NFTS - Open Market Trade</h3>
+                    <img src={theory} alt="Hexiverse game concept" />
+                    <p>
+                        <h2>Key Points:</h2>
+                        <ul>
+                            <li>ZERO Supply Start</li>
+                            <li>Start FREE - Low Barrier To Entry</li>
+                            <li>Uses Pulsechain for Game Fees </li>
+                            <li>Open In-Game Trade Market With Liquidity Pools</li>
+                            <ul><li>*'Only in game NFTs and PLS will be traded initally'</li></ul>
+                            <li>Unique NFTS With Specialty Utility Including Fee Sharing</li>
+                            <ul><li>*'NFTs will be tradeable with off-game markets'</li></ul>
+                            <li>Price Discovery Will Be Market Determined</li>
+                            <li>Immutable Contracts Without Admin Keys</li>
+                        </ul>
+                    </p>
+                    <ul className="nav-item">
+                                <NavLink className="btn" to="/tokenomics">
+                                    Begin Game
+                                </NavLink>
+                        </ul>
+                </div>
+            </div>
+          </section>
   );
 }
 

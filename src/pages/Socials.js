@@ -1,37 +1,30 @@
 import React from "react";
 import socials from '../assets/gamesocials.png';
+import { NavLink } from "react-router-dom";
 
 
-function Socials() {
-  return (
-    <div className="socials">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src={socials}
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Hexiverse Society</h1>
-            <p>
-              <li><h3>Overview:</h3></li>
-              Start for free and collect NFTs for the *cost of minting.
-              <li><h3>Mission:</h3></li>
-              Trade NFTs on an in-game open marketplace. 
-              <li><h3>NFts</h3>
-              <li><b>Game Items</b></li> Based 
-              <li><b>Unique</b></li> Perks and Rewards
-              Use capital from V1 to fund community inspired game expansion. Major social interactive spaces enabled.
-              <li><b>Liquidity Providing</b></li> Last 
-              </li>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+const Socials = () => {
+    return (
+        <section className="large">
+            <h2>HEXiVerse Socials</h2>
+
+            <div className="large__cards">
+
+                <div className="large__card">
+                    <h3>Gather In HEXiVerse - Chat - Stream</h3>
+                    <img src={socials} alt="Hexiverse game concept" />
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis consectetur facere neque assumenda quasi aliquid,
+                        perferendis ratione rerum dolorem.
+                    </p>
+                    <ul className="nav-item">
+                                <NavLink className="btn" to="/tokenomics">
+                                    Begin Game
+                                </NavLink>
+                        </ul>
+                </div>
+            </div>
+          </section>
   );
 }
 
