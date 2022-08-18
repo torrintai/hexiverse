@@ -11,6 +11,8 @@ import Concept from "./pages/Concept";
 import Tokenomics from "./pages/Tokenomics";
 import Socials from "./pages/Socials";
 import Market from "./pages/Market";
+import Hexial from "./pages/Hexial";
+import Freqaqs from "./pages/Freqaqs";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -87,6 +89,12 @@ function App() {
           </Route>
           <Route path="/market">
             <Market />
+          </Route>
+          <Route path="/freqaqs">
+            <Freqaqs />
+          </Route>
+          <Route path="/hexial">
+            <Hexial />
           </Route>
           <Route path="*">
             <NotFound />

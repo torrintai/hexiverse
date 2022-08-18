@@ -1,5 +1,5 @@
 import React from "react";
-import socials from '../assets/gamesocials.png';
+import heximark from '../assets/heximark.png';
 import { NavLink } from "react-router-dom";
 
 
@@ -12,13 +12,13 @@ const Market = () => {
 
                 <div className="large__card">
                     <h3>Trade Peer To Peer - Join Pools</h3>
-                    <img src={socials} alt="Hexiverse game concept" />
+                    <img src={heximark} alt="Hexiverse game concept" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/tokenomics">
+                                <NavLink className="btn" to="/market">
                                     Begin Game
                                 </NavLink>
                         </ul>

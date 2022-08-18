@@ -6,7 +6,7 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}><Link to='/home' style={{textDecoration:'none', color: 'white'}}>HEXiVerse</Link></div>
+      <div className={classes.logo}><Link to='/dashboard' style={{textDecoration:'none', color: 'white'}}>HEXiVerse</Link></div>
       <nav className={classes.nav}>
         <ul>
           <li>
