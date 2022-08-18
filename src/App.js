@@ -7,6 +7,9 @@ import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import Trailmap from "./pages/Trailmap";
 import Projects from "./pages/Projects";
+import Concept from "./pages/Concept";
+import Tokenomics from "./pages/Tokenomics";
+import Socials from "./pages/Socials";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -70,6 +73,15 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/concept">
+            <Concept />
+          </Route>
+          <Route path="/tokenomics">
+            <Tokenomics />
+          </Route>
+          <Route path="/socials">
+            <Socials />
           </Route>
           <Route path="*">
             <NotFound />

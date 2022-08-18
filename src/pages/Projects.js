@@ -1,7 +1,8 @@
 // Import Assets
-import probar from '../assets/pro-bar.png';
-// import compound from '../assets/compound.png';
-// import aave from '../assets/aave.png';
+import concept from '../assets/gamecon.png';
+import theory from '../assets/gametheory.png';
+import social from '../assets/gamesocials.png';
+import { NavLink } from "react-router-dom";
 
 const Projects = () => {
     return (
@@ -12,19 +13,21 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Game Concept</h3>
-                    <img src={probar} alt="Uniswap Swap Page" />
+                    <img src={concept} alt="Hexiverse game concept" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
                     </p>
-
-                    <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/Uniswap/v2-core" target="_blank" className="button">Code</a>
+                    <ul className="nav-item">
+                                <NavLink className="button" to="/tokenomics">
+                                    Begin Game
+                                </NavLink>
+                        </ul>
                 </div>
 
                 <div className="projects__card">
                     <h3>Tokenomics</h3>
-                    <img src={probar} alt="Compound Landing Page" />
+                    <img src={theory} alt="hexiverse tokenomics" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
@@ -36,7 +39,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Social</h3>
-                    <img src={probar} alt="Aave Landing Page" />
+                    <img src={social} alt="hexiverse socials" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.

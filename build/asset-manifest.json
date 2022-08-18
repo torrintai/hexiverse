@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.85fcaa93.css",
-    "main.js": "/static/js/main.3be728c3.js",
+    "main.css": "/static/css/main.a7f9e9df.css",
+    "main.js": "/static/js/main.e33eeb56.js",
     "static/css/884.c1165da1.chunk.css": "/static/css/884.c1165da1.chunk.css",
-    "static/js/884.b5038029.chunk.js": "/static/js/884.b5038029.chunk.js",
+    "static/js/884.2239c31d.chunk.js": "/static/js/884.2239c31d.chunk.js",
     "static/css/857.d695c0f1.chunk.css": "/static/css/857.d695c0f1.chunk.css",
-    "static/js/857.3c8b60eb.chunk.js": "/static/js/857.3c8b60eb.chunk.js",
+    "static/js/857.15dd462a.chunk.js": "/static/js/857.15dd462a.chunk.js",
+    "static/media/verse.png": "/static/media/verse.beb2070515f6f4e84646.png",
     "static/media/hexbg.png": "/static/media/hexbg.a87b09c895188e106219.png",
-    "static/media/pro-bar.png": "/static/media/pro-bar.bb7114480962fa7001e3.png",
+    "static/media/gamesocials.png": "/static/media/gamesocials.952e2672baf33c85576a.png",
+    "static/media/gamecon.png": "/static/media/gamecon.8be3fe03e270e05ad832.png",
+    "static/media/gametheory.png": "/static/media/gametheory.c22c3e92f22fb84e4d6e.png",
     "index.html": "/index.html",
-    "main.85fcaa93.css.map": "/static/css/main.85fcaa93.css.map",
-    "main.3be728c3.js.map": "/static/js/main.3be728c3.js.map",
+    "main.a7f9e9df.css.map": "/static/css/main.a7f9e9df.css.map",
+    "main.e33eeb56.js.map": "/static/js/main.e33eeb56.js.map",
     "884.c1165da1.chunk.css.map": "/static/css/884.c1165da1.chunk.css.map",
-    "884.b5038029.chunk.js.map": "/static/js/884.b5038029.chunk.js.map",
+    "884.2239c31d.chunk.js.map": "/static/js/884.2239c31d.chunk.js.map",
     "857.d695c0f1.chunk.css.map": "/static/css/857.d695c0f1.chunk.css.map",
-    "857.3c8b60eb.chunk.js.map": "/static/js/857.3c8b60eb.chunk.js.map"
+    "857.15dd462a.chunk.js.map": "/static/js/857.15dd462a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fcaa93.css",
-    "static/js/main.3be728c3.js"
+    "static/css/main.a7f9e9df.css",
+    "static/js/main.e33eeb56.js"
   ]
 }
