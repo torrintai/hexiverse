@@ -29,19 +29,7 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
 
-  apiKey: "AIzaSyDQ9QPEn-EXGS-xvedOVRjGLMIPulj9hu0",
-
-  authDomain: "torrin-ports.firebaseapp.com",
-
-  projectId: "torrin-ports",
-
-  storageBucket: "torrin-ports.appspot.com",
-
-  messagingSenderId: "256918325641",
-
-  appId: "1:256918325641:web:670f1c2093528aeb483958",
-
-  measurementId: "G-P4NHW7KDVG"
+  
 
 };
 
