@@ -17,11 +17,11 @@ const Concept = () => {
                     <ul>
                         <li>Social channels available without collecting or swapping</li>
                         <li>Play the main game, mini-games, or just chat and/or swap</li>
-                        <li>Harvest in-game reources and items NFTs</li>
+                        <li>Harvest in-game resources and items NFTs</li>
                         <li>Combine NFTs to craft more useful NFTs</li>
                         <li>Trade NFTs in-game for PLS</li>
                         <li>Earn and recieve Unique NFTs with extra perks:</li>
-                        <b>Some Unique NFTs Perks</b>
+                        <b>Some Unique NFT's Perks</b>
                         <ul><li>Fee Sharing</li>
                         <li>Social Memberships</li>
                         <li>Future Airdrop Qualifications</li>
@@ -30,7 +30,7 @@ const Concept = () => {
                         </ul>
                         <li>Customizable NFT Avatar for the cost of minting after connecting</li>
                         <li>Plays for everyone, from grandma to gamer, whale to no-coiner</li>
-                        <li></li>
+                        <li>Many options for earning with low risk</li>
                     </ul>
                     </p>
                     <ul className="nav-item">
