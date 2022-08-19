@@ -110,12 +110,12 @@ const Dashboard = () => {
                 <div className="projects__card">
                     <h3>FAQs</h3>
                     <img src={faqs} alt="hexiverse socials" />
-                    <p>Come and participate in taking Social Media to the next level.
+                    <p>Frequently Asked Questions
                       <ul>
-                        <li>Work Together to Grow</li>
-                        <li>Trade, Chat, Learn</li>
-                        <li>Public and Private Spaces</li>
-                        <li>Bridged Social Experiences</li>
+                        <li>How can I make money?</li>
+                        <li>What wallets can I connect with?</li>
+                        <li>Is the project open source code?</li>
+                        <li>Can I sell the NFTs on other markets?</li>
                       </ul>
                       
                       

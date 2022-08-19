@@ -13,12 +13,21 @@ const Socials = () => {
                 <div className="large__card">
                     <h3>Gather In HEXiVerse - Chat - Stream</h3>
                     <img src={socials} alt="Hexiverse game concept" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <p><b>All Things Hexico All-In-One Space</b>
+                    <ul><li>Customize your own NFT avatar</li>
+                    <li>Create a profile</li>
+                    <li>Connect with friends and make new ones</li>
+                    <li>Build a channel</li>
+                    <li>Build a Pub or a Stadium</li>
+                    <li>Create invite only channels or streams</li>
+                    <li>Play multiplayer mini-games</li>
+                    <li>Work together in the main game</li>
+                    <li>Create teams for competitions and events</li>
+                    <li>Connect and bridge with existing social platforms</li>
+                    </ul>
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/tokenomics">
+                                <NavLink className="btn" to="/hexial">
                                     Begin Game
                                 </NavLink>
                         </ul>
