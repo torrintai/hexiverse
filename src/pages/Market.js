@@ -16,7 +16,7 @@ const Market = () => {
                     <p><b>HEXiMart</b>
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/market">
+                                <NavLink className="btn" to="/hexial">
                                     Begin Game
                                 </NavLink>
                         </ul>

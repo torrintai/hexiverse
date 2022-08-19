@@ -13,12 +13,10 @@ const Hexial = () => {
                 <div className="large__card">
                     <h3>HEX And Pulsechain Trivia Game</h3>
                     <img src={hexial} alt="Hexiverse game concept" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <p><b>Recieve an NFT for completion of the game</b>
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/tokenomics">
+                                <NavLink className="btn" to="/hex1q1">
                                     Begin Game
                                 </NavLink>
                         </ul>

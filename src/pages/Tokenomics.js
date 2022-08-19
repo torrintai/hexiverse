@@ -28,7 +28,7 @@ const Tokenomics = () => {
                         </ul>
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/tokenomics">
+                                <NavLink className="btn" to="/hexial">
                                     Begin Game
                                 </NavLink>
                         </ul>

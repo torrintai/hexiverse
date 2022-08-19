@@ -26,7 +26,7 @@ const Freqaqs = () => {
                         </ul>
                     </p>
                     <ul className="nav-item">
-                                <NavLink className="btn" to="/freqaqs">
+                                <NavLink className="btn" to="/hexial">
                                     Begin Game
                                 </NavLink>
                         </ul>

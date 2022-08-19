@@ -13,6 +13,12 @@ import Socials from "./pages/Socials";
 import Market from "./pages/Market";
 import Hexial from "./pages/Hexial";
 import Freqaqs from "./pages/Freqaqs";
+import Gameover from "./pages/Gameover";
+import Hex1q1 from "./pages/Hex1q1";
+import Hex1q2 from "./pages/Hex1q2";
+import Hex1q3 from "./pages/Hex1q3";
+import Hex1q4 from "./pages/Hex1q4";
+import Hex1winner from "./pages/Hex1winner";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -95,6 +101,24 @@ function App() {
           </Route>
           <Route path="/hexial">
             <Hexial />
+          </Route>
+          <Route path="/gameover">
+            <Gameover />
+          </Route>
+          <Route path="/hex1q1">
+            <Hex1q1 />
+          </Route>
+          <Route path="/hex1q2">
+            <Hex1q2 />
+          </Route>
+          <Route path="/hex1q3">
+            <Hex1q3 />
+          </Route>
+          <Route path="/hex1q4">
+            <Hex1q4 />
+          </Route>
+          <Route path="/hex1winner">
+            <Hex1winner />
           </Route>
           <Route path="*">
             <NotFound />
