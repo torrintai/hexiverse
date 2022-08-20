@@ -18,6 +18,12 @@ import Hex1q1 from "./pages/Hex1q1";
 import Hex1q2 from "./pages/Hex1q2";
 import Hex1q3 from "./pages/Hex1q3";
 import Hex1q4 from "./pages/Hex1q4";
+import Hex1q5 from "./pages/Hex1q5";
+import Hex1q6 from "./pages/Hex1q6";
+import Hex1q7 from "./pages/Hex1q7";
+import Hex1q8 from "./pages/Hex1q8";
+import Hex1q9 from "./pages/Hex1q9";
+import Hex1q10 from "./pages/Hex1q10";
 import Hex1winner from "./pages/Hex1winner";
 
 // Import the functions you need from the SDKs you need
@@ -45,8 +51,6 @@ const firebaseConfig = {
 
 };
 
-
-// Initialize Firebase
 
 const app = initializeApp(firebaseConfig);
 
@@ -116,6 +120,24 @@ function App() {
           </Route>
           <Route path="/hex1q4">
             <Hex1q4 />
+          </Route>
+          <Route path="/hex1q5">
+            <Hex1q5 />
+          </Route>
+          <Route path="/hex1q6">
+            <Hex1q6 />
+          </Route>
+          <Route path="/hex1q7">
+            <Hex1q7 />
+          </Route>
+          <Route path="/hex1q8">
+            <Hex1q8 />
+          </Route>
+          <Route path="/hex1q9">
+            <Hex1q9 />
+          </Route>
+          <Route path="/hex1q10">
+            <Hex1q10 />
           </Route>
           <Route path="/hex1winner">
             <Hex1winner />

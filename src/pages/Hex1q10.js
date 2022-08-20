@@ -3,7 +3,7 @@ import hexial from '../assets/hexialpulsuit.png';
 import { NavLink } from "react-router-dom";
 
 
-const Hex1q4 = () => {
+const Hex1q10 = () => {
     return (
         <section className="large">
             <h2>HEXial Pulsuit Level 1</h2>
@@ -11,28 +11,28 @@ const Hex1q4 = () => {
             <div className="large__cards">
 
                 <div className="large__card">
-                    <h3>Question 4</h3>
+                    <h3>Question 10</h3>
                     <img src={hexial} alt="Hexiverse game concept" />
-                    <p><b>What is the maximum number of days HEX can be staked?</b>
+                    <p><b>How many sides does a Hexagon have?</b>
                     </p>
                     <ul className="nav-item">
                                 <NavLink className="btn" to="/gameover">
-                                    555
-                                </NavLink>
-                        </ul>
-                        <ul className="nav-item">
-                                <NavLink className="btn" to="/hex1q5">
-                                    5555
+                                    7
                                 </NavLink>
                         </ul>
                         <ul className="nav-item">
                                 <NavLink className="btn" to="/gameover">
-                                    1500
+                                    5
                                 </NavLink>
                         </ul>
                         <ul className="nav-item">
                                 <NavLink className="btn" to="/gameover">
-                                    5000
+                                    8
+                                </NavLink>
+                        </ul>
+                        <ul className="nav-item">
+                                <NavLink className="btn" to="/hex1winner">
+                                    6
                                 </NavLink>
                         </ul>
                 </div>
@@ -41,4 +41,4 @@ const Hex1q4 = () => {
   );
 }
 
-export default Hex1q4;
+export default Hex1q10;
