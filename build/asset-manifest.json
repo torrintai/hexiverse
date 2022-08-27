@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b45cd70.css",
-    "main.js": "/static/js/main.a266444b.js",
+    "main.css": "/static/css/main.b45a3719.css",
+    "main.js": "/static/js/main.2815bd89.js",
     "static/css/884.c1165da1.chunk.css": "/static/css/884.c1165da1.chunk.css",
     "static/js/884.2239c31d.chunk.js": "/static/js/884.2239c31d.chunk.js",
     "static/css/857.d695c0f1.chunk.css": "/static/css/857.d695c0f1.chunk.css",
     "static/js/857.15dd462a.chunk.js": "/static/js/857.15dd462a.chunk.js",
     "static/media/verse.png": "/static/media/verse.beb2070515f6f4e84646.png",
-    "static/media/hexbg.png": "/static/media/hexbg.a87b09c895188e106219.png",
-    "static/media/faqs.png": "/static/media/faqs.f53c9593ac0a6788753b.png",
-    "static/media/heximark.png": "/static/media/heximark.922cb7dbf4c753c1b79a.png",
-    "static/media/gamesocials.png": "/static/media/gamesocials.952e2672baf33c85576a.png",
-    "static/media/gamecon.png": "/static/media/gamecon.8be3fe03e270e05ad832.png",
-    "static/media/gametheory.png": "/static/media/gametheory.c22c3e92f22fb84e4d6e.png",
-    "static/media/hexialpulsuit.png": "/static/media/hexialpulsuit.f87c6da4f7871c74591d.png",
+    "static/media/hexbge.png": "/static/media/hexbge.e0b38db7e587cf9a9cf0.png",
+    "static/media/whatnew.png": "/static/media/whatnew.151421d8fe7a209a868f.png",
+    "static/media/faqs.png": "/static/media/faqs.389121af9569fda2f6db.png",
+    "static/media/heximark.png": "/static/media/heximark.0acffc7b74bec8238655.png",
+    "static/media/gamesocials.png": "/static/media/gamesocials.c2aa6c4c16d394293343.png",
+    "static/media/gamecon.png": "/static/media/gamecon.776f31780e88281bd346.png",
+    "static/media/gametheory.png": "/static/media/gametheory.be11a15316103e05def4.png",
+    "static/media/hexialpulsuit.png": "/static/media/hexialpulsuit.56cc8eb04391d32d70a0.png",
+    "static/media/mainhex.png": "/static/media/mainhex.1189b79707a81e5c8a7d.png",
     "index.html": "/index.html",
-    "main.1b45cd70.css.map": "/static/css/main.1b45cd70.css.map",
-    "main.a266444b.js.map": "/static/js/main.a266444b.js.map",
+    "main.b45a3719.css.map": "/static/css/main.b45a3719.css.map",
+    "main.2815bd89.js.map": "/static/js/main.2815bd89.js.map",
     "884.c1165da1.chunk.css.map": "/static/css/884.c1165da1.chunk.css.map",
     "884.2239c31d.chunk.js.map": "/static/js/884.2239c31d.chunk.js.map",
     "857.d695c0f1.chunk.css.map": "/static/css/857.d695c0f1.chunk.css.map",
     "857.15dd462a.chunk.js.map": "/static/js/857.15dd462a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b45cd70.css",
-    "static/js/main.a266444b.js"
+    "static/css/main.b45a3719.css",
+    "static/js/main.2815bd89.js"
   ]
 }
