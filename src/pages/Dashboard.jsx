@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 const Dashboard = () => {
     return (
         <section className="projects">
-            <h2>Are You Versed? Everyting HEXICO - Bring It</h2>
+            <h2>Are You Versed? Everything HEXICO - Bring It</h2>
             <h3>SOCIAL PLATFORM - ENGAGE - PLAY - CREATE - EARN</h3>
               <div className="large__cards">
               <div className="projects__card">
