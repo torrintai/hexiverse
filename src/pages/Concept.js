@@ -1,5 +1,6 @@
 import React from "react";
 import concept from '../assets/gamecon.png';
+import hexial from '../assets/hexialpulsuit.png';
 import { NavLink } from "react-router-dom";
 
 
@@ -36,6 +37,23 @@ const Concept = () => {
                     <ul className="nav-item">
                                 <NavLink className="btn" to="/hexial">
                                     Begin Game
+                                </NavLink>
+                        </ul>
+                </div>
+                <div className="projects__card">
+                    <h3>Game Concept</h3>
+                    <img src={hexial} alt="Hexiverse game concept" />
+                    <p>HEXial Pulsuit - The HEX And Pulsechain Trivia Game
+                      <ul><li>Earn NFTs for Participating</li>
+                      <li>Only Pay Minting Fees</li>
+                      <li>Short, Fun and Rewarding</li>
+                      <li>In-Game Swapping</li>
+
+                      </ul>
+                    </p>
+                    <ul className="nav-item">
+                                <NavLink className="btn" to="/hexial">
+                                    GO
                                 </NavLink>
                         </ul>
                 </div>
